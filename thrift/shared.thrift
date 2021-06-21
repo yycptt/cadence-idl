@@ -1813,3 +1813,7 @@ struct RespondCrossClusterTasksCompletedRequest {
 struct RespondCrossClusterTasksCompletedResponse {
   10: optional list<CrossClusterTaskRequest> tasks
 }
+
+struct TestRequest {
+  10: optional string test
+}
